@@ -1,0 +1,21 @@
+.features{
+    .items{
+    display: flex;
+        grid-gap: 30px;
+    .item{
+        flex: 0 1 50%;
+        &:nth-child(2){
+            .card{
+                height: 100%;
+            }
+        
+        }
+        &:nth-child(1){
+            .card{
+                display: flex;
+        
+            }
+        }
+    }
+    }
+}
